@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/home_page"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:text="Versus A Player"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:transitionName="@android:transition/fade"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/button_vs_player" />
+
+    <Button
+        android:text="VS Computer"
+        android:layout_below="@+id/button_vs_player"
+        android:layout_alignRight="@+id/button_vs_player"
+        android:layout_alignEnd="@+id/button_vs_player"
+        android:layout_marginTop="21dp"
+        android:id="@+id/button_vs_computer"
+        android:transitionName="@android:transition/fade"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="800dp"/>
+
+    <TextView
+        android:text="@string/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorAccent"
+        android:typeface="normal"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic" />
+</RelativeLayout>

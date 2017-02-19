@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="def"></string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="xwon">X WON</string>
+    <string name="ywon">Y WON</string>
+    <string name="draw">DRAW</string>
+    <string name="game">Tic-Tac-Toe</string>
+    <string name="play_again">Play Again</string>
+    <string name="back_to_menu">Home</string>
+    <string name="have_fun">Have Fun!!</string>
+</resources>
